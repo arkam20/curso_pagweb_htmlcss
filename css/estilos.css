@@ -1,3 +1,27 @@
-body {
-    background: red;
+p{
+    font-size: 20px;
 }
+
+li{
+    list-style: none;
+}
+
+
+/* Atributos de listado en el nav */
+
+/*Id*/
+#primer-elmento {
+    font-size: 30px;
+}
+
+/*Clases*/
+.primer-elemento {
+    color:green;
+}
+
+.ultimo-elemento {
+    background: blue;
+}
+
+
+
