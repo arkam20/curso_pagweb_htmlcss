@@ -1,9 +1,11 @@
 p{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 li{
     list-style: none;
+    margin-right: 25px;
 }
 
 
@@ -23,5 +25,13 @@ li{
     background: blue;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.lista {
+    display: flex;
+}
 
