@@ -35,3 +35,32 @@ li{
     display: flex;
 }
 
+
+.titular {
+    text-align: center;
+    margin-top:200px;
+}
+
+h1{
+    font-size: 60px;
+    margin:0px;
+
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+a{
+    font-size: 14px;
+    color: white;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+}
+
+header {
+    background: url(fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
