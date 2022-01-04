@@ -81,3 +81,34 @@ header {
     width: 90%;
     margin: auto;
 }
+
+/*Arranca seccion sobre mi*/
+h3{
+    text-align:center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-sobremi {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-parrafo-y-boton{
+    width: 42%
+
+}
+
+/*Se aplica estilo a los parrafos contenidos en esta clase
+a esto se le llama estilos en cadena
+*/
+.contenedor-parrafo-y-boton p{
+    font-size: 18px;
+}
+
+.contenedor-parrafo-y-boton a{
+    margin-top: 20px;
+/* Se asignan propiedades de bloque  a un elemento que esta en linea*/    
+    display: inline-block; 
+}
