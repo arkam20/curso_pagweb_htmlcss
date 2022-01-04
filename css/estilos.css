@@ -155,3 +155,16 @@ a esto se le llama estilos en cadena
     /*Se define este height para que el parrafo se mantenga de un mismo tamaño y los iconos no se muevan o esten fijos*/
     height: 200px;
 }
+
+
+/* Modifaciones al owl carousel */
+span{
+    font-size: 80px;
+    color:blue;
+}
+
+.owl-nav {
+    text-align: center;
+}
+
+/******* fin de moficaciones owl carousel*****/
