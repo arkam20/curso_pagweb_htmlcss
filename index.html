@@ -15,6 +15,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
         
+
+        <!-- Importacion de owl carrousel -->
+
+        <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+
+
     </head>
      
     <body> 
@@ -153,5 +160,29 @@
             </div>
 
     </section>
+
+    <section>
+        <div class="owl-carousel">
+            <div>Hola</div>
+            <div>Como estas</div>
+            <div>Prueba de Carrusel</div>
+            <div>Esto debe tener movimiento</div>
+            <div>Si no es por que algo esta mal</div>
+        </div>
+    </section>
+
+        <!-- Seccion de Scripts-->
+    <script src="js/plugins/jquery.min.js"></script>
+    <script src="js/owlcarousel/jquery.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Se llama al plugin-->
+    <script>
+        $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+        });
+    </script>
+
     </body>
 </html>
+
