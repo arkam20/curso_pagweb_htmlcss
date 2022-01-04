@@ -112,3 +112,43 @@ a esto se le llama estilos en cadena
 /* Se asignan propiedades de bloque  a un elemento que esta en linea*/    
     display: inline-block; 
 }
+
+
+/*Inicia Seccion de Servicios*/
+
+.contenedor-servicios {
+    display: flex;
+   /* Para alinear elementos del flex */ 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*Se disminuye el tamaño para que el flex wrap acomode los elementos */
+.servicio {
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.violeta {
+    background: #5055df;
+}
+    
+.celeste {
+    background: #40a8fa;
+}
+
+.servicio h4{
+    font-size: 30px;
+    margin:0;
+}
+
+.servicio img{
+    float: right;
+}
+
+.servicio p {
+    font-size: 18px;
+}
