@@ -188,3 +188,54 @@ span{
 .porque-singular {
     width: 28%;
 }
+
+/* Seccion de blog*/
+
+#blog {
+    background: #f9fafc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contenedor-publicaciones {
+    display:flex;
+    justify-content: space-around;
+}
+
+.publicacion {
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 20px;
+}
+
+#blog img{
+    width: 100%;
+}
+
+#blog h4 {
+    font-size: 23px;
+    margin:0;
+    padding: 20px;
+}
+
+#blog p {
+    color: #5a6169;
+    line-height: 24px;
+    font-size: 16 px;
+    padding: 10px 20px 20px 20px;
+    margin:0;
+}
+
+#blog a{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.publicacion-segunda img {
+    height: 245px;
+   
+}
+
+.primer-parrafo {
+    padding: 0px 20px 20px 20px !important;
+}
