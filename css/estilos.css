@@ -168,3 +168,23 @@ span{
 }
 
 /******* fin de moficaciones owl carousel*****/
+
+.contenedor-porque {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-porque h4 {
+    margin:0;
+    font-size: 20px;
+}
+
+.contenedor-porque p{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.porque-singular {
+    width: 28%;
+}
