@@ -153,7 +153,8 @@ a esto se le llama estilos en cadena
 .servicio p {
     font-size: 18px;
     /*Se define este height para que el parrafo se mantenga de un mismo tamaño y los iconos no se muevan o esten fijos*/
-    height: 200px;
+    height: 50%;
+    
 }
 
 
@@ -293,7 +294,7 @@ span{
 }
 
 /*Seccion responsiva*/
-@media (max-width: 480px){
+@media (max-width: 800px){
     /*Se va aplicar cuando el MAXIMO DE ANCHO sea de 480px*/
     
     
@@ -316,4 +317,77 @@ span{
         display:block;
         width: 25px;
     } 
+
+    .titular {
+        margin-top: 54px
+    }
+
+    h1{
+        font-size: 49px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    h3 {
+        font-size: 43px;
+    }
+
+    .contenedor-sobremi {
+        flex-direction: column;
+    }
+
+    .contenedor-parrafo-y-boton {
+        width:90%;
+    }
+
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+
+    .servicio {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .contenedor-porque{
+        flex-direction: column;
+    }
+
+    .porque-singular {
+        width: 95%;
+    }
+
+    .contenedor-publicaciones {
+        flex-direction: column;
+    }
+
+    .publicacion {
+        width: 95%;
+        margin: auto;
+    }
+
+
+    /* Esto se pone para hacer ajueste del viewport en el ipad*/
+
+    @media (min-width: 700px) and 
+    (max-width:900px){
+        header {
+            height: 53vh;
+        }
+
+
+        .servicio {
+            width: 45%;
+        }
+
+        .publicacion {
+            width: 62%;
+        }
+
+    }
+
+
 }
