@@ -287,10 +287,33 @@ span{
    right: 1%;
 }
 
+
+.menu-icon {
+    display:none
+}
+
 /*Seccion responsiva*/
 @media (max-width: 480px){
     /*Se va aplicar cuando el MAXIMO DE ANCHO sea de 480px*/
-    header{
-        height: 50vh;
+    
+    
+    /*Menu Nav a la izquierda*/
+    nav{
+        position:absolute;
+        top: 70px;
+        left: 0px;
+        background: #5cb8ff;
+        width: 100%;
+        display:none;
     }
+
+    nav .lista {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .menu-icon {
+        display:block;
+        width: 25px;
+    } 
 }

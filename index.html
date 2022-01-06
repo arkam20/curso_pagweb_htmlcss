@@ -42,6 +42,7 @@
             <div class="contenedor">
                 <div class="menu">
                     <p>Sergio Patricio</p>
+                    <img class="menu-icon" src="img/menu.png">
                     <nav>
                         <ul class="lista">
                             <li>Sobre Mi</li>
@@ -286,6 +287,12 @@
             }
             }
         })
+
+    /* Codigo Jquery para activar el menu de navegacion responsivo */
+    /*se manda aplicar el efecto slideToggle a la etiqueta nav del css*/    
+    $('.menu-icon').click(function(){
+        $('header nav').slideToggle();
+    })
     </script>
 
     </body>
