@@ -239,3 +239,41 @@ span{
 .primer-parrafo {
     padding: 0px 20px 20px 20px !important;
 }
+
+/*Seccion que esperas*/
+
+/*Se aplica un degradado*/
+#que-esperas{
+/*rgba(red,green,blue,alpha - transparencia)*/
+    background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+    text-align: center;
+    padding:50px 0 50px 0;
+}
+
+#que-esperas a {
+
+    padding: 15px 45px 15px 45px;
+   /*Una vez que deja de pasar el puntero del mouse se aplique tambien el efecto*/
+    transition: 1s;
+
+}
+
+/*Se agrega efecto al pasar el mouse encima*/
+#que-esperas a:hover{
+    color:black;
+    /*Para que el cambio de color sea suavizado y no brusco*/
+    transition: 1s;
+    
+    /*Efecto que hace crecer el link tipo boton*/
+    transform: scale(1.1);
+
+    /*Efecto que hace rotar el link tipo boton*/
+    /*transform: rotate(360deg);*/
+    display:inline-block;
+}
+
+#que-esperas h3 {
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
