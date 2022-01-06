@@ -277,3 +277,12 @@ span{
     color: #fff;
     margin-bottom: 40px;
 }
+
+#whatsapp a{
+   background: none; 
+   /*Dejar la posicion fija para que siempre este en pantalla*/
+   /*las propiedades top y right solo funcionan con fixed*/
+   position: fixed;
+   top: 88%;
+   right: 1%;
+}
